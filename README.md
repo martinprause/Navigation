@@ -81,3 +81,7 @@ jupyter notebook
 and open Report.ipynb:
 
 ![Jupyter](jupyter1.png)
+
+The final agent passes the benachmark test and reaches an average scoce of 15+ for more than 100 consecutive episodes in less than 1800 episodes.
+
+![Score](score.png)

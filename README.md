@@ -78,6 +78,6 @@ You start the agent by running Jupyter Notebook
 jupyter notebook
 ```
 
-and open Navigation.ipynb:
+and open Report.ipynb:
 
-![Jupyter](jupyter.png)
+![Jupyter](jupyter1.png)

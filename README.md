@@ -41,7 +41,6 @@ Third, install [PyTorch](https://pytorch.org/get-started/locally/). Install PyTo
 ```
 conda install pytorch -c pytorch
 pip3 install torchvision
-
 ```
 
 Fourth, install the Unity's ML agents as part of Udacity's dependency package. Navigate to the python subdir, install it and navigate back/one level up:
@@ -59,16 +58,26 @@ pip install dill
 ```
 
 Sixth, download the environment from one of the links below.  You need only select the environment that matches your operating system:
-    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+* Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+* Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+* Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+* Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 Extract the respective file in the current directory. 
 
 After all these tasks your directory should somehow look like this:
 
-![Directory](dir.PNG)
+![Directory](dir.png)
 
 
 ## Instructed
+
+You start the agent by running Jupyter Notebook 
+
+```
+jupyter notebook
+```
+
+and open Navigation.ipynb:
+
+![Jupyter](jupyter.png)
